@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eAppointmentServer.Domain", "eAppointmentServer.Domain\eAppointmentServer.Domain.csproj", "{26FE28AD-8D5B-41E1-87DD-8D8F264706EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAppointmentServer.Application", "eAppointmentServer.Application\eAppointmentServer.Application.csproj", "{C12859D8-15FE-4794-915D-0FF13CBB698D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26FE28AD-8D5B-41E1-87DD-8D8F264706EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26FE28AD-8D5B-41E1-87DD-8D8F264706EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26FE28AD-8D5B-41E1-87DD-8D8F264706EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FE28AD-8D5B-41E1-87DD-8D8F264706EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12859D8-15FE-4794-915D-0FF13CBB698D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12859D8-15FE-4794-915D-0FF13CBB698D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12859D8-15FE-4794-915D-0FF13CBB698D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12859D8-15FE-4794-915D-0FF13CBB698D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BA137C7-B9DC-419E-B3AF-5E7B78697142}
+	EndGlobalSection
+EndGlobal
