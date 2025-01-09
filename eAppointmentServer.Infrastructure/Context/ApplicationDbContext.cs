@@ -12,7 +12,15 @@ using System.Threading.Tasks;
 
 namespace eAppointmentServer.Infrastructure.Context
 {
-    public sealed class ApplicationDbContext:IdentityDbContext<AppUser,AppRole,Guid>,IUnitOfWork
+    public sealed class ApplicationDbContext : IdentityDbContext<
+    AppUser,
+    AppRole,
+    Guid,
+    IdentityUserClaim<Guid>,
+    AppUserRole,
+    IdentityUserLogin<Guid>,
+    IdentityRoleClaim<Guid>,
+    IdentityUserToken<Guid>>, IUnitOfWork
     {
         public ApplicationDbContext(DbContextOptions options):base(options) 
         {
